@@ -114,7 +114,48 @@ Netcraft is an Internet monitoring company that monitors uptime, detects server 
 A netblock is a range of consecutive IP addresses. Netblocks are sometimes displayed in Classless Inter-Domain Routing (CIDR) notation.
 
 
+# Sort Subdomains
 
+Remove duplicate subdomains from the collected files.
+
+**Command:**
+
+```bash
+sort -u sub.txt sub1.txt sub2.txt >> sorted_subdomain.txt
+```
+
+# Filter Out Live Subdomains
+
+Filter out live subdomains using `httpx` and `httprobe`.
+
+### Using httpx
+
+```bash
+cat sorted_subdomain.txt | httpx | tee -a httpx_sub.txt
+```
+
+### Using httprobe
+
+```bash
+cat sorted_subdomain.txt | httprobe | tee -a httprobe_sub.txt
+```
+
+# Recommended Tools and Automation Frameworks
+
+## Automation Frameworks
+
+- **3klCon:** https://github.com/eslam3kl/3klCon
+  - My own framework based on the above methodology.
+- **Bheem:** https://github.com/harsh-bothra/Bheem
+
+## Tools
+
+- **3klector:** https://github.com/eslam3kl/3klector
+- **crtfinder:** https://github.com/eslam3kl/crtfinder
+- **Subfinder:** https://github.com/projectdiscovery/subfinder
+- **Assetfinder:** https://github.com/tomnomnom/assetfinder
+- **Altdns:** https://github.com/infosec-au/altdns
+- **Dirsearch:** https://github.com/maurosoria/dirsearch
 
 
 
