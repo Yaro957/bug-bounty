@@ -226,10 +226,48 @@ Google Dorking is the process of using advanced search operators to make searche
 - https://infosecwriteups.com/dorking-for-bug-bounties-d81cc857b2c8
 - https://www.exploit-db.com/google-hacking-database
 
-## Target Information
+# What Is GitHub Dorking?
 
-- **Domain:** `thecyberboy.graphy.com`
-- **Email:** `omjumde204@gmail.com`
+GitHub Dorking uses specific search keys to find sensitive information in public repositories. It is similar to Google Dorking.
+
+- Manual searching can be better than automation.
+- Spend time searching for useful information.
+- For automation, use GitDorker.
+
+## Links
+
+- https://github.com/Vaidik-pandya/Github_recon_dorks
+- https://github.com/obheda12/GitDorker
+
+  # What Is the Wayback Machine?
+
+The Wayback Machine is a digital archive of the World Wide Web, founded by the Internet Archive. It allows users to go back in time and see what websites looked like in the past.
+
+Using the Wayback Machine can be advantageous because you can check older versions of websites for sensitive files that existed previously.
+
+## Links
+
+- https://web.archive.org/web/*/website.com/*
+- https://github.com/tomnomnom/waybackurls
+
+# How to Use the Wayback Machine
+
+1. Go to https://github.com/tomnomnom/waybackurls.
+2. Install it using Go.
+3. Run the following command:
+
+```bash
+cat httpx.txt | waybackurls | tee -a way.txt
+```
+
+## Filtering Wayback Machine Results
+
+You can use filters to search the Wayback Machine.
+
+1. Visit https://web.archive.org/web/*/website.com/* to get a list of paths crawled by the Wayback Machine.
+2. Use filters to search for specific files.
+3. Pass the `waybackurls.txt` file through the `gf` tool and use `gf-patterns` to filter links that may be vulnerable.
+
 
 
 
