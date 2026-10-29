@@ -156,6 +156,17 @@ cat sorted_subdomain.txt | httprobe | tee -a httprobe_sub.txt
 - **Assetfinder:** https://github.com/tomnomnom/assetfinder
 - **Altdns:** https://github.com/infosec-au/altdns
 - **Dirsearch:** https://github.com/maurosoria/dirsearch
+- **Gau:** https://github.com/lc/gau
+- **Git-hound:** https://github.com/tillson/git-hound
+- **Gf:** https://github.com/tomnomnom/gf
+- **Gf-patterns:** https://github.com/1ndianl33t/Gf-Patterns
+- **Nuclei:** https://github.com/projectdiscovery/nuclei
+- **Nuclei-templates:** https://github.com/projectdiscovery/nuclei-templates
+- **Subjack:** https://github.com/haccer/subjack
+- **Httpx:** https://github.com/projectdiscovery/httpx
+- **Waybackurls:** https://github.com/tomnomnom/waybackurls
+- **all.txt:** https://gist.github.com/jhaddix/86a06c5dc309d08580a018c66354a056
+
 
 
 
