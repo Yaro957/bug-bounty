@@ -167,6 +167,69 @@ cat sorted_subdomain.txt | httprobe | tee -a httprobe_sub.txt
 - **Waybackurls:** https://github.com/tomnomnom/waybackurls
 - **all.txt:** https://gist.github.com/jhaddix/86a06c5dc309d08580a018c66354a056
 
+# Analysing Web Technologies
+
+We can analyse web technologies using various tools.
+
+## Tools
+
+- Wappalyzer Extension
+- Netcraft
+- WhatWeb
+- Whois
+- Reverse IP Domain Check
+
+## Reverse IP Domain Check
+
+A Reverse IP Domain Check takes a domain name or IP address pointing to a web server and searches for other sites known to be hosted on the same web server.
+
+- Data is gathered from search engine results.
+- It provides a list of domains hosted on the same server.
+
+
+# WHOIS
+
+Search the WHOIS database to find domain and IP owner information and other statistics.
+
+# Reverse IP Domain Checker
+
+We will use [YouGetSignal](https://www.yougetsignal.com/) for this.
+
+## How to Use It
+
+1. Go to https://www.yougetsignal.com/ and select **Reverse IP Domain Check**.
+2. Enter your target domain and check the results.
+3. After collecting domains, subdomains, and their subdomains, find the IP range.
+4. A WHOIS lookup allows you to search the public database for information about a specific domain, such as:
+   - Expiration date
+   - Current registrar
+   - Registrant information
+   
+IP RANGE FINDER
+An IP address is always a set of four numbers like that Fach number can range from 0 to 255. So, the full IP
+addressing range goes from 0.0. 0.0 to 255.255. 255.255. Finding an IP range in recon is equally important
+because it tells us that how many unique IP addresses block a particular domain has.
+
+How to find it ?
+1. Go to https://bgp.he.net/ and enter your target IP
+2. Click on search and after the result appears click on Whois
+3.After we get the range it is mandatory to perform whois check to ensure that the IP belongs to the same target
+domain
+
+# What Is Google Dorking?
+
+Google Dorking is the process of using advanced search operators to make searches more precise and focus on specific topics.
+
+## Links
+
+- https://dorks.faisalahmed.me/
+- https://infosecwriteups.com/dorking-for-bug-bounties-d81cc857b2c8
+- https://www.exploit-db.com/google-hacking-database
+
+## Target Information
+
+- **Domain:** `thecyberboy.graphy.com`
+- **Email:** `omjumde204@gmail.com`
 
 
 
