@@ -1,0 +1,22 @@
+# Bug Bounty Reconnaissance Checklist
+
+- [ ] Domain choosing
+- [ ] Acquisition finding based on program scope
+- [ ] Subdomain finding using at least 5 methods, with a minimum of 5 levels in the final subdomain list
+- [ ] Alive subdomains
+- [ ] Visual recon
+- [ ] Sorting subdomains based on technologies, with all information about them
+- [ ] Reverse IP lookups
+- [ ] Collecting all URLs from source code
+- [ ] Finding parameters and hidden parameters using different tools
+- [ ] Using Waymore and other URL scraping tools
+- [ ] Using grep or custom tools to find information from Waymore files
+- [ ] Collecting JavaScript files and looking for information
+- [ ] Google Dorking for possible available information
+- [ ] Manual GitHub recon for information discovery
+- [ ] Checking employees' GitHub repositories
+- [ ] Checking already disclosed reports for possible information
+- [ ] Checking third-party services for misconfigurations
+- [ ] Using Shodan, ZoomEye, and Censys to identify possible attack surfaces and information
+- [ ] Checking plugins and integrations
+- [ ] Checking WAF for misconfigurations
