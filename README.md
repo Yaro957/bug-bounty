@@ -269,8 +269,130 @@ You can use filters to search the Wayback Machine.
 3. Pass the `waybackurls.txt` file through the `gf` tool and use `gf-patterns` to filter links that may be vulnerable.
 
 
+# What Is Content Discovery?
+
+Content discovery is the process of finding hidden files, endpoints, and parameters that can be used during further penetration testing.
+
+## Links
+
+- https://github.com/v0re/dirb
+- https://github.com/KajanM/DirBuster
+- https://github.com/OJ/gobuster
+
+## Some Takeaways
+
+1. Don't rely on a single tool or approach for information gathering. Use at least two tools or approaches and verify the results.
+2. Focus more on manual testing than automation.
+3. Spend more time on information gathering.
 
 
+# What Is Parameter Fuzzing?
+
+Fuzzing, or fuzz testing, is the automated process of providing malformed or random data to software to discover bugs.
+
+In penetration testing, a wordlist is typically used to iterate through values, and the results are observed and analyzed.
+
+Fuzzing usually involves testing inputs, which can include:
+
+- Alphanumeric characters to find buffer overflows.
+- Odd characters to test for SQL injection.
+- Hidden directories and files.
+- Valid parameter names and values.
+
+## Links
+
+- https://github.com/ffuf/ffuf
+- https://github.com/danielmiessler/SecLists
+
+
+# FFUF
+
+## Installation
+
+1. Install FFUF by following the steps provided here: https://github.com/ffuf/ffuf
+2. Download SecLists for wordlists: https://github.com/danielmiessler/SecLists
+
+## Directory Discovery
+
+1. Take the subdomains text file and pass it through Dirsearch or FFUF to discover hidden directories and files, such as `http://url.com/database_conf.txt`.
+2. Filter the results to show only `2xx`, `3xx`, and `403` response codes using the tool's options (`-h` to view available filters).
+3. Collect the results in a text file named `hidden_directories.txt`.
+4. Check the results for data leakage or forbidden pages and try to bypass them.
+
+## References
+
+- https://null-byte.wonderhowto.com/how-to/fuzz-parameters-directories-more-with-ffuf-0330806/
+- https://gist.github.com/jhaddix/b80ea67d85c13206125806f0828f4d10
+
+# What Is Shodan?
+
+Shodan is a search engine that allows users to find specific types of computers connected to the internet using various filters.
+
+It is also described as a search engine for service banners, which are metadata sent by a server back to the client.
+
+## Links
+
+- https://www.shodan.io/
+- https://securitytrails.com/blog/top-shodan-dorks
+- https://github.com/daffainfo/AllAboutBugBounty/blob/master/Recon/Shodan%20Dorks.md
+- https://medium.com/@sw33tlie/finding-a-p1-in-one-minute-with-shodan-io-rce-735e08123f52
+
+# What Is URL and Parameter Discovery?
+
+The easiest active way to discover URLs and their corresponding parameters on a target is to crawl the website.
+
+## Links
+
+- https://github.com/devanshbatham/ParamSpider
+- https://github.com/jaeles-project/gospider
+- https://github.com/s0md3v/Arjun
+- https://github.com/tomnomnom/qsreplace
+- https://github.com/lc/gau
+
+# Parameter Discovery Tools
+
+## 1. ParamSpider
+
+Finds parameters from web archives of the entered domain and its subdomains.
+
+## 2. Gospider
+
+A fast web spider written in Go.
+
+## 3. Arjun
+
+Web applications use parameters (or queries) to accept user input.
+
+We want to find as many parameters as possible, which we can later scan or review manually. That's where Arjun comes in.
+
+# Parameter Discovery Tools
+
+## 1. ParamSpider
+
+Finds parameters from web archives of the entered domain and its subdomains.
+
+## 2. Gospider
+
+A fast web spider written in Go.
+
+## 3. Arjun
+
+Web applications use parameters (or queries) to accept user input.
+
+We want to find as many parameters as possible, which we can later scan or review manually. That's where Arjun comes in.
+
+## 4. GAU (GetAllUrls)
+
+Fetches known URLs from:
+- AlienVault's Open Threat Exchange
+- Wayback Machine
+- Common Crawl
+
+Inspired by Tomnomnom's `waybackurls`.
+
+## 5. QSReplace
+
+Removes duplicate URLs and parameter combinations.
 
 
 	
