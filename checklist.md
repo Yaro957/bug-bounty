@@ -3,6 +3,18 @@
 - [ ] Domain choosing
 - [ ] Acquisition finding based on program scope
 - [ ] Subdomain finding using at least 5 methods, with a minimum of 5 levels in the final subdomain list
+      OSINT >> SUBFINDER
+BURTEFORCING / WORDLIST >> FINDOMAIN KNOCKPY
+CERTIFICATE BBASED >> crt.sh
+ACTIVE >> AMASS
+
+domain.com
+1 > sub.domain.com
+2 > sub.sub.domain.com
+go on
+
+
+    
 - [ ] Alive subdomains
 - [ ] Visual recon
 - [ ] Sorting subdomains based on technologies, with all information about them
