@@ -93,3 +93,307 @@ Putting an asterisk in a search tells Google ‘I don’t know what goes  here�
 ```
 site:*.com
 ```
+
+".mlab. com password"
+"access_key"
+"access token"
+"amazonaws"
+"api.googlemaps AIza"
+"api_key"
+"api_secret"
+"apidocs"
+"apikey"
+"apiSecret"
+"app_key"
+"app_secret"
+"appkey"
+"appkeysecret"
+"application_key"
+"appsecret"
+"appspot"
+"auth"
+"auth token"
+"authorizationToken"
+"aws access"
+"aws_access_key_id"
+"aws kev"
+"aws_secret"
+"aws token"
+"AWSSecretKey"
+"bashrc password"
+"bucket_password"
+"client secret"
+"cloudfront"
+"codecov token"
+"config"
+"conn. login"
+"connectionstring"
+"consumer_key"
+"credentials"
+"database_password"
+"db_password"
+"db_username"
+"dbpasswd"
+"dbpassword"
+"dbuser"
+"dot-files"
+"dotfiles"
+"encryption_key"
+"fabricApiSecret"
+"fb secret"
+"firebase"
+"ftp"
+"gh_token"
+"github_key"
+"github_token"
+"gitlab"
+"gmail_password"
+"gmail_username"
+"herokuapp"
+"internal"
+"irc_pass"
+"JEKYLL_GITHUB_TOKEN"
+"key"
+"keyPassword"
+"ldap_password"
+"ldap_username"
+"login"
+"mailchimp"
+"mailgun"
+"master_key"
+"mydotfiles"
+"mysql"
+"node env"
+"npmrc _auth"
+"oauth token"
+"pass"
+"passwd"
+"password"
+"passwords"
+"pem private"
+"preprod"
+"private_key"
+"prod"
+"pwd"
+"pwds"
+"rds . amazonaws. com password"
+"redis_password"
+"root_password"
+"secret"
+"secret . password"
+"secret access_key"
+"secret_key"
+"secret token"
+"secrets"
+
+"secure"
+"security_credentials"
+"send. keys"
+"send_keys"
+"sendkeys"
+"SF USERNAME salesforce"
+"sf username"
+"site.com" FIREBASE API JSON=
+"site.com" vim_settings. xml
+"slack_api"
+"slack token"
+"sql_password"
+"ssh"
+"ssh2_auth_password"
+"sshpass"
+"staging"
+"stg"
+"storePassword"
+"stripe"
+"swagger"
+"testuser"
+"token"
+"x-api-key"
+"xoxb "
+"xoxp"
+[WFClient] Password= extension:ica
+access_key
+bucket password
+dbpassword
+dbuser
+extension: avastlic "support. avast. com"
+extension:bat
+
+extension: cfg
+extension : env
+
+extension: exs
+
+extension: ini
+extension: json api. forecast. io
+extension: json googleusercontent client_secret
+extension: json mongolab.com
+extension : pem
+extension: pem private
+extension : ppk
+extension:ppk private
+extension : properties
+extension: sh
+
+extension: sls
+
+extension : sql
+extension: sql mysql dump
+extension: sql mysql dump password
+extension: yaml mongolab. com
+extension: zsh
+filename: .bash_history
+Filename: .bash_history DOMAIN-NAME
+filename :. bash profile aws
+Filename: .bashrc mailchimp
+Filename: .bashrc password
+Filename: . cshrc
+Filename: .dockercfg auth
+filename: . env DB USERNAME NOT homestead
+Filename: . env MAIL_HOST=smtp.gmail.com
+Filename: .esmtprc password
+Filename: .ftpconfig
+filename: .git-credentials
+filename: .history
+Filename: .htpasswd
+Filename: . netrc password
+Eilename: .npmrc _auth
+filename: .pgpass
+Filename: . remote-sync. json
+filename: .s3cfg
+filename: .sh_history
+filename: .tugboat NOT _tugboat
+filename: netrc password
+filename: apikey
+filename: bash
+filename: bash_history
+filename:bash_profile
+filename: bashrc
+filename: beanstalkd. yml
+filename: CCCam.cfg
+filename: composer.json
+filename: config
+filename: config irc_pass
+filename: config. json auths
+filename: config .php dbpasswd
+filename: configuration. php JConfig password
+filename : connections
+
+filename: connections.xml
+filename: constants
+
+filename: credentials
+
+filename: credentials aws access_key_id
+filename: cshrc
+
+filename: database
+filename:dbeaver-data-sources. xml
+filename: deployment-config. json
+filename : dhcpd. conf
+filename: dockercfg
+filename: environment
+filename: express. conf
+filename: express. conf path: .openshift
+filename: filezilla.xml
+
+filename: filezilla.xml Pass
+filename:git-credentials
+filename:gitconfig
+filename: global
+filename:history
+filename:htpasswd
+filename:hub oauth token
+filename: id dsa
+filename: id rsa
+filename: id rsa or filename: id_dsa
+filename: idea14. key
+filename: known hosts
+filename: logins. json
+filename: makefile
+filename:master. key path: config
+filename: netrc
+filename: npmrc
+filename: pass
+filename:passwd path:etc
+filename: pgpass
+filename: prod. exs
+filename: prod. exs NOT prod. secret.exs
+filename: prod. secret.exs
+filename: proftpdpasswd
+filename: recentservers. xml
+
+filename: recentservers.xml Pass
+
+filename: robomongo. json
+filename:s3cfg
+filename: secrets. yml password
+filename: server.cfg
+filename: server. cfg rcon password
+filename: settings
+filename: settings . py SECRET_KEY
+filename: sftp-config. json
+filename: sftp-config. json password
+filename: sftp. json path: . vscode
+filename: shadow
+filename: shadow path:etc
+filename: spec
+filename: sshd_config
+filename: token
+
+filename: tugboat
+filename: ventrilo srv.ini
+filename: WebServers. xml
+filename:wp-config
+filename:wp-config.php
+filename: zhrc
+HEROKU API_KEY language: json
+HEROKU API_KEY language: shell
+HOMEBREW GITHUB API TOKEN language : shell
+jsforce extension:js conn. login
+language : yaml -filename: travis
+msg nickserv identify filename:config
+org: Target "AWS_ACCESS KEY ID"
+org: Target "list_aws accounts"
+org:Target "aws_access_key"
+org: Target "aws_secret_key"
+org: Target "bucket name"
+org:Target "S3_ACCESS KEY ID"
+org:Target "S3_BUCKET"
+org:Target "S3 ENDPOINT"
+org:Target "S3_SECRET ACCESS KEY"
+password
+path: sites databases password
+private -language: java
+PT TOKEN language: bash
+redis password
+root password
+secret_access_key
+SECRET KEY BASE=
+shodan_api_key language : python
+WORDPRESS DB PASSWORD=
+xoxp OR xoxb OR xoxa
+s3.yml
+
+. exs
+
+beanstalkd. yml
+deploy. rake
+.sls
+
+AWS SECRET ACCESS KEY
+API KEY
+
+API SECRET
+
+API TOKEN
+
+ROOT PASSWORD
+
+ADMIN PASSWORD
+ADMIN PASSWORD
+
+GCP SECRET
+
+AWS SECRET
+"private" extension:pgp
